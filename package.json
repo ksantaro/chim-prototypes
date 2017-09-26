@@ -1,0 +1,31 @@
+{
+  "name": "chim-proto",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13",
+    "react-select": "^1.0.0-rc.10",
+    "semistandard": "^11.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "build-storybook -c .storybook -o .out",
+    "build-storybook": "build-storybook -s public",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.10",
+    "@storybook/addon-links": "^3.2.10",
+    "@storybook/react": "^3.2.10",
+    "@storybook/storybook-deployer": "^2.0.0",
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-semistandard-react": "^4.1.0",
+    "eslint-plugin-semistandard-react": "^4.0.0"
+  }
+}
